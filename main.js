@@ -91,21 +91,3 @@ function insertStudent(name, id, gdpa)
     }
 	students.push(student);
 }  
-
-
-// This week task:
-// Show list of students 
-// Update student
-// Delete student
-
-// 10 marks
-// 1) based on the follwoing:
-// a) easy to use  and prettyu look 3
-// b) resposnive design 2
-
-// c) clean code 2
-// d) show list for the user 1
-// e) update 1
-// f) delete 1
-
-// Deeadline: 20/2, on github.
