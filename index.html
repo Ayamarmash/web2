@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style.css">
+
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>School Managment System</title>
+	</head>
+	<body>
+		<div  class="container">
+			<form>
+
+		<!-- student name -->
+				   <div class="from-control">
+				    	<label for="name">Student Name</label>
+				    	<input type="text" id="name" placeholder="Name" />
+				   </div>
+		<!-- student name -->
+
+
+		<!-- student id -->
+			    	<div class="from-control">
+					<label for="idNumber">Student ID</label>
+					<input type="number" id="idNumber" placeholder="Id Number" />
+			    	</div>
+		<!-- student id -->
+
+
+		<!-- student gdpa -->
+			    	<div class="from-control">
+					<label for="gdpa">Student GDPA</label>
+					<input type="number" min="0" max="4" id="gdpa" placeholder="GPA" />
+				    </div>
+		<!-- student gdpa -->
+
+		<button id="submit" type="submit">Add</button>
+	</form>
+
+		</div>
+    <div class="container2">
+
+	<div id="operations"> 
+		<button id="showlist" type="showlist">Students List</button>
+		<button id="editstudent" type="editstudent">Edit Student</button>
+		<button id="deletestudent" type="deletestudent">Delete Student</button>
+		
+		<div id="list"></div>
+	</div>
+	  </div>
+	  
+		<script src="main.js"></script>
+	</body>
+</html>
